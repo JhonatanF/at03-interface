@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>repl.it</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="containner">
+      <div class="calls">
+        <div class="title">
+          <h3>Chamada GET</h3>
+          <h3>Chamada POST</h3>
+          <h3>Chamada DELETE</h3>
+          <h3>Chamada PUT</h3>
+        </div>
+        <div class="btns">
+          <button type="submit" onclick="callGet()">GET</button>
+          <button type="submit" onclick="callPost()">POST</button>
+          <button type="submit" onclick="callDelete()">DELETE</button>
+          <button type="submit" onclick="callPut()">PUT</button>
+        </div>
+      </div>
+      <div id="mensage">
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
